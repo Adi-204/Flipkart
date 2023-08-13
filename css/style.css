@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+:root {
+    --main-bg-color: #2874f0;
+  }
+*{
+    padding: 0;
+    margin: 0;
+}
+footer div{
+    background-color: var(--main-bg-color);
+    height: 12vh;
+    color: white;
+    font-family: 'Lora', serif;
+}
+header{
+    background: var(--main-bg-color);
+    font-family: 'Lora', serif;
+}
+nav{
+    display: flex;
+}
+nav ul{
+    height: 58px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 0 23px;
+    color: white;
+}
+nav ul li a:hover{
+    font-weight: bold;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 100px;
+    padding: 0 25px;
+} 
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 500px;
+    height: 35px;
+    margin: 0 18px 0 50px;
+}
+.search button{
+    font-family: 'Lora', serif;
+}
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+
