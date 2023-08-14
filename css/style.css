@@ -8,7 +8,7 @@
 }
 footer div{
     background-color: var(--main-bg-color);
-    height: 12vh;
+    height: 10vh;
     color: white;
     font-family: 'Lora', serif;
 }
@@ -47,14 +47,34 @@ nav ul li a:hover{
     align-items: center;
 }
 .search input{
-    width: 500px;
+    width: 40vw;
     height: 35px;
     margin: 0 18px 0 50px;
+    padding: 0 12px;
 }
 .search button{
     font-family: 'Lora', serif;
 }
 .container{
     min-height: calc(100vh - 58px - 12vh);
+}
+.box img{
+    margin-top: 10px;
+}
+.card{
+    max-width: 95vw;
+    margin: auto;
+}
+.card h2{
+    font-weight: 600;
+    font-family: inter_semi_bold,fallback-inter_semi_bold,Arial,sans-serif;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.card-item{
+    display: inline-flex;
+    flex-direction: column;
+    width: 160px;
+    margin: 0 60px;
 }
 
